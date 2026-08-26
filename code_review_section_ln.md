@@ -33,11 +33,7 @@ target \= 47
 
 Which algorithm is faster when the list of numbers is very large? Why?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+The longer algorithm would be faster than the smaller one. Longer algorithms tend to split the problem into multiple parts, while shorter algorithms handle the entire package all at once without any pillows to soften the blow. Yes, Implementation 1 may look cute, petite, and organized, but it will struggle whenever you add too much to its load.
 
 **Checklist to guide your answer:**
 
@@ -49,11 +45,7 @@ Which algorithm is faster when the list of numbers is very large? Why?
 
 Which algorithm is easier to understand at first glance? What makes it clearer?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+It would be the shorter code. The more words/characters/variables you need to comprehend within a single algorithm, the more confusing it becomes. Meanwhile, a shorter code can work in almost the same way and are easily more digestible than the paragraph long algorithm from Implementation 2.
 
 **Checklist to guide your answer:**
 
@@ -67,11 +59,7 @@ Which algorithm is easier to understand at first glance? What makes it clearer?
 
 If you had to modify the program, such as changing what happens when the target is found, which algorithm would be easier to update? Why?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+It would be Implementation 1. Having an easy-to-digest and short algorithm also almost always ensures that you can easily spot errors or mistakes in your code. On the other hand, Implementation 2 features more stuff: more loops, more variables, more everything. It would be a hassle to check every element. Although the troubleshooting process is eased up by built-in tips or auto-correction features in most IDEs, it would still save a bit of time to check your long code.
 
 **Checklist to guide your answer:**
 
@@ -85,11 +73,7 @@ If you had to modify the program, such as changing what happens when the target 
 
 Which algorithm is easier to test with different inputs? Why?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Implementation 1 works best in this type of scenario, as shorter algorithms are easier to test, having less paths and variables. With potentially fewer loops, the number of conditional inputs you can use is lessened. Also, just like I explained in a previous answer, longer algorithms are more complex, thus making it very difficult to isolate why an input failed.
 
 **Checklist to guide your answer:**
 
@@ -101,11 +85,7 @@ Which algorithm is easier to test with different inputs? Why?
 
 What should the algorithm check to avoid errors when receiving input from a user?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Verify whether the user input matches the wanted data type for the input. The algorithm should also use a "whitelist" to only allow certain characters (numbers) to be entered. The program should try to limit the input length to prevent the implementations from buffering or just straight up giving up.
 
 **Checklist to guide your answer:**
 
@@ -119,8 +99,4 @@ What should the algorithm check to avoid errors when receiving input from a user
 
 Based on your answers from 1 to 5, Which algorithm would you choose for this problem, and under what conditions would the other algorithm be more suitable? Summarize your answer.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Me and my partner have decided on choosing Implementation 1 as the superior implementation of code. It is easy to analyze, troubleshoot, test, and use overall. With the only major downside being its efficiency, this implementation stood out as a better choice with more pros than cons.
